@@ -20,6 +20,8 @@ This tutorial will walk you through building a data pipeline on Azure using Olym
 - Review and create the storage account.
 - Once deployed, go to "Containers" and create two folders: "raw data" and "transform data".
 
+![](ss/storage.png)
+
 #### 2. Create Data Factory:
 - Search for "data Factory" and click "Create data Factory".
 - Choose your subscription, resource group, a unique data factory name, region, and click "Next" through the remaining options.
@@ -40,6 +42,8 @@ This tutorial will walk you through building a data pipeline on Azure using Olym
   - Connect the source and sink in the pipeline.
   - Validate and debug the pipeline to ensure successful data copying.
   - Verify that the files are present in the "raw data" folder of your storage account.
+ 
+  ![](ss/datafactory.png)
 
 ### Data Transformation with Azure Databricks:
 
@@ -69,6 +73,11 @@ This tutorial will walk you through building a data pipeline on Azure using Olym
 - Use options like "overwrite" and "partition" to manage data writing.
 - Verify that the transformed files are present in the "transform data" folder.
 
+![](ss/db1/png)
+![](ss/db2/png)
+![](ss/db3/png)
+![](ss/regapp/png)
+
 ### Data Loading and Analysis with Azure Synapse Analytics:
 
 #### 1. Create Synapse Workspace:
@@ -90,6 +99,9 @@ This tutorial will walk you through building a data pipeline on Azure using Olym
 - Use the built-in SQL editor to write queries and explore the data.
 - Perform aggregations, calculations, and filter data based on your analysis goals.
 - Visualize the data using the charting tools within Synapse Studio.
+
+![](ss/synp1.png)
+![](ss/synp2.png)
 
 ### Challenge:
 
